@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-
     <link rel="stylesheet" href="Assets/css/styles.css">
     <title>Filmes Collection</title>
 </head>
 
 <body>
+    <header>  
     <div class="divNav1">
         <nav class="Nav">
             <ul>
@@ -21,7 +21,9 @@
                 <li>Gênero</li>
             </ul>
         </nav>
+    </header>
 
+    <main>
     </div>
     <div class="text-center">
         <h1>Filmes</h1>
@@ -29,34 +31,38 @@
             alt="ImagemFitaCinema">
     </div>
 
-    <table class="table table-striped sm">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Filme</th>
-                <th scope="col">Gênero</th>
-            </tr>
-        </thead>
+    <h3>Lista de filmes</h3>
+    <table>
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td></td>
-                <td></td>
-            </tr>
+            <td id="nomeFilme"></td>
+            <td id="nomeGenero"></td>
         </tbody>
     </table>
-    <button type="button" class="btn btn-warning">Listar Filmes</button>
+
+    <button id="button" type="button" class="btn btn-warning">Listar Filmes</button>
+</main>
+    <footer>
+        <div class="footer">
+            <div>
+                <img src="Assets./img/logonegativo.png" alt="">
+            </div>
+            <hr>
+            <div>
+
+                <p>Company Inc., 8901 Marmora Road, Glasgow, D04 89GR</p>
+
+                <p>Call us now toll free: (800)2345-6789</p>
+
+                <p>Customer support: support@demolink.org</p>
+
+                <p>Skype: sample-username</p>
+
+            </div>
+        </div>
+        </div>
+    </footer>
 </body>
+
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 
