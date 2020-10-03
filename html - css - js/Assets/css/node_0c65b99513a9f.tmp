@@ -139,13 +139,9 @@ footer{
   justify-content: center;
   position: absolute; 
   bottom: 0px; 
-  width: 1348px;
-  height: 155px; 
+  width: 100%; 
   margin: auto auto;
-  padding: 5px 0px;
-  left: 0px;
-  top: 600px;
-  
+  padding: 5px 5px;
 }
 
 .footer{
@@ -162,7 +158,7 @@ position: absolute;
 width: 100px;
 height: 100px;
 left: 678px;
-top: 200px;
+top: 246px;
 
 }
 
@@ -171,7 +167,7 @@ button {
   width: 150px;
   height: 50px;
   left: 1058px;
-  top: 450px;
+  top: 350px;
   background-color: #F6511D;
   border: none;
   color: white;
@@ -182,26 +178,15 @@ table{
   margin: 10px 0px;
   padding-bottom: 4em;
   padding-right: 38em;
-  position: absolute;
-  left: 232px;
-  top: 300px;
 }
 
 td{
   font-weight: lighter;
-  width: 150px;
+  width: 15opx;
   padding: 6px;
-  
-}
-
-h3 {
-  
   position: absolute;
-  left: 208px;
-  top: 260px;
-
-
 }
+
 
 /* Fim das alterações */
 
