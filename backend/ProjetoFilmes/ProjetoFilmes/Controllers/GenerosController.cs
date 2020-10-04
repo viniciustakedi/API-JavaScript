@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoFilmes.Domains;
-using ProjetoFilmes.Interfaces;
-using ProjetoFilmes.Repositories;
+using FilmesWebApi.Domains;
+using FilmesWebApi.Interfaces;
+using FilmesWebApi.Repositories;
 
-namespace ProjetoFilmes.Controllers
+namespace FilmesWebApi.Controllers
 {
     // Define o tipo de resposta da API
     [Produces("application/json")]

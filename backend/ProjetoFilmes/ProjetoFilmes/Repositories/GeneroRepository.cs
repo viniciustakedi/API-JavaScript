@@ -1,9 +1,10 @@
-﻿using ProjetoFilmes.Domains;
-using ProjetoFilmes.Interfaces;
+﻿using FilmesWebApi.Contexts;
+using FilmesWebApi.Domains;
+using FilmesWebApi.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjetoFilmes.Repositories
+namespace FilmesWebApi.Repositories
 {
     /// <summary>
     /// Repositório que implementa os métodos de gêneros

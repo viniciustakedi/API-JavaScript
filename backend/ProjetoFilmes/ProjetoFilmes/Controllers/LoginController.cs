@@ -3,12 +3,12 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
-using ProjetoFilmes.Domains;
-using ProjetoFilmes.Interfaces;
-using ProjetoFilmes.Repositories;
-using ProjetoFilmes.ViewModels;
+using FilmesWebApi.Domains;
+using FilmesWebApi.Interfaces;
+using FilmesWebApi.Repositories;
+using FilmesWebApi.ViewModels;
 
-namespace ProjetoFilmes.Controllers
+namespace FilmesWebApi.Controllers
 {
     // Define o tipo de resposta da API
     [Produces("application/json")]
@@ -44,7 +44,7 @@ namespace ProjetoFilmes.Controllers
             try
             {
                 // Busca um usuário através do e-mail e senha
-                Usuarios usuarioAutenticado = _usuarioRepository.Login(login.Email, login.Senha);
+                Usuarios usuarioAutenticado = _usuarioRepository.Login(login);
 
                 // Caso não seja encontrado, retorna o status code 404 com a mensagem de erro
                 if (usuarioAutenticado == null)

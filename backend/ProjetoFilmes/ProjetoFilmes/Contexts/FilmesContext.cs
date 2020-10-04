@@ -1,6 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
+using FilmesWebApi.Domains;
 
-namespace ProjetoFilmes.Domains
+namespace FilmesWebApi.Contexts
 {
     public partial class FilmesContext : DbContext
     {
@@ -21,8 +24,8 @@ namespace ProjetoFilmes.Domains
         {
             if (!optionsBuilder.IsConfigured)
             {
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Data Source=LAPTOP-QQ7IRANA\\SQLEXPRESS2019; Initial Catalog=Filmes; User Id=sa; pwd=takedi79");
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+                optionsBuilder.UseSqlServer("Data Source=LAPTOP-QQ7IRANA\\SQLEXPRESS2019; initial catalog=Filmes; Integrated Security=True");
             }
         }
 
@@ -33,7 +36,7 @@ namespace ProjetoFilmes.Domains
                 entity.HasKey(e => e.IdFilme);
 
                 entity.HasIndex(e => e.Titulo)
-                    .HasName("UQ__Filmes__7B406B564C6054ED")
+                    .HasName("UQ__Filmes__7B406B56590ED193")
                     .IsUnique();
 
                 entity.Property(e => e.Titulo)
@@ -44,7 +47,7 @@ namespace ProjetoFilmes.Domains
                 entity.HasOne(d => d.IdGeneroNavigation)
                     .WithMany(p => p.Filmes)
                     .HasForeignKey(d => d.IdGenero)
-                    .HasConstraintName("FK__Filmes__IdGenero__3B75D760");
+                    .HasConstraintName("FK__Filmes__IdGenero__286302EC");
             });
 
             modelBuilder.Entity<Generos>(entity =>
@@ -52,7 +55,7 @@ namespace ProjetoFilmes.Domains
                 entity.HasKey(e => e.IdGenero);
 
                 entity.HasIndex(e => e.Nome)
-                    .HasName("UQ__Generos__7D8FE3B2A19DC72B")
+                    .HasName("UQ__Generos__7D8FE3B20FA9D656")
                     .IsUnique();
 
                 entity.Property(e => e.Nome)
@@ -66,10 +69,15 @@ namespace ProjetoFilmes.Domains
                 entity.HasKey(e => e.IdUsuario);
 
                 entity.HasIndex(e => e.Email)
-                    .HasName("UQ__Usuarios__A9D105341DB22AEE")
+                    .HasName("UQ__Usuarios__A9D105342CCC6C90")
                     .IsUnique();
 
                 entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasMaxLength(255)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Nome)
                     .IsRequired()
                     .HasMaxLength(255)
                     .IsUnicode(false);

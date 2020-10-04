@@ -29,33 +29,14 @@
             alt="ImagemFitaCinema">
     </div>
 
-    <table class="table table-striped sm">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Filme</th>
-                <th scope="col">Gênero</th>
-            </tr>
-        </thead>
+    <h3>Lista de filmes</h3>
+    <table id="Filmes">
         <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th scope="row">3</th>
-                <td></td>
-                <td></td>
-            </tr>
+            <td id="nomeFilme"></td>
+            <td id="nomeGenero"></td>
         </tbody>
     </table>
-    <button type="button" class="btn btn-warning">Listar Filmes</button>
+    <button onclick="buscarFilmes()" id="btn"  class="btn btn-warning">Listar Filmes</button>
 </body>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>

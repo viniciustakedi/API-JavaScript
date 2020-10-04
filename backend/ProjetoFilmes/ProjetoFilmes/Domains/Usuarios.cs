@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ProjetoFilmes.Domains
+namespace FilmesWebApi.Domains
 {
     public partial class Usuarios
     {

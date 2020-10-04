@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ProjetoFilmes.ViewModels
+namespace FilmesWebApi.ViewModels
 {
     /// <summary>
     /// Classe responsável pelo modelo de login

@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Israel\\Documents\\Docs\\Senai 3ºTermo\\Projeto_SprintFrontEnd\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Israel\\Documents\\Docs\\Senai 3ºTermo\\Projeto_SprintFrontEnd\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj": {
+    "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Israel\\Documents\\Docs\\Senai 3ºTermo\\Projeto_SprintFrontEnd\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj",
-        "projectName": "ProjetoFilmes",
-        "projectPath": "C:\\Users\\Israel\\Documents\\Docs\\Senai 3ºTermo\\Projeto_SprintFrontEnd\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj",
-        "packagesPath": "C:\\Users\\Israel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Israel\\Documents\\Docs\\Senai 3ºTermo\\Projeto_SprintFrontEnd\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+        "projectName": "FilmesWebApi",
+        "projectPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+        "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Israel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vinic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -101,7 +100,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

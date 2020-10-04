@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "edJPWT+yR7XrspdBIcaPOq3fmqbkV7qkyr4w0gsMLYvdT9iPyGDQcLZfS/3tTlMzwfVRiSy/t8CATyOphSF6yA==",
+  "dgSpecHash": "p1YFoLIus4SVr2bKQnW0mgKJ4hSdRvSEMBUYSFnrKTw6ITRMIw5q2aYbbsBDNMkQLcWMluETIuK6IhsY8zWT2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vinic\\Desktop\\SENAI-ESTUDOS\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj",
+  "projectFilePath": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\vinic\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

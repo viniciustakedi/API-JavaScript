@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "ProjetoFilmes/1.0.0": {
+      "FilmesWebApi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "2.1.2",
@@ -36,10 +36,10 @@
           "System.IdentityModel.Tokens.Jwt": "6.7.1"
         },
         "runtime": {
-          "ProjetoFilmes.dll": {}
+          "FilmesWebApi.dll": {}
         },
         "compile": {
-          "ProjetoFilmes.dll": {}
+          "FilmesWebApi.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication/2.1.2": {
@@ -3577,7 +3577,7 @@
     }
   },
   "libraries": {
-    "ProjetoFilmes/1.0.0": {
+    "FilmesWebApi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

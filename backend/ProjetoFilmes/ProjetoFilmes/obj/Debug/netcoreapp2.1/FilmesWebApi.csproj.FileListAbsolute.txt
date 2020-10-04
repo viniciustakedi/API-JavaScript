@@ -1,0 +1,54 @@
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csprojAssemblyReference.cache
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfoInputs.cache
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfo.cs
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csproj.CoreCompileInputs.cache
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cache
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cs
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.deps.json
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.json
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.dev.json
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\Israel\Documents\Docs\Projetos-Senai\FilmesWebApi\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.genruntimeconfig.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.deps.json
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.json
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.dev.json
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csprojAssemblyReference.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfoInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfo.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csproj.CoreCompileInputs.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cs
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\mathe\OneDrive\Área de Trabalho\ProjetoFilme\Backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.genruntimeconfig.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.deps.json
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.json
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.runtimeconfig.dev.json
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\bin\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csprojAssemblyReference.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorAssemblyInfo.cs
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfoInputs.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.AssemblyInfo.cs
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.RazorTargetAssemblyInfo.cache
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.dll
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.xml
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.pdb
+C:\Users\vinic\Desktop\API-JavaScript\backend\ProjetoFilmes\ProjetoFilmes\obj\Debug\netcoreapp2.1\FilmesWebApi.genruntimeconfig.cache

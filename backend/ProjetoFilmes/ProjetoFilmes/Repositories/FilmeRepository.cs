@@ -1,9 +1,10 @@
-﻿using ProjetoFilmes.Domains;
-using ProjetoFilmes.Interfaces;
+﻿using FilmesWebApi.Contexts;
+using FilmesWebApi.Domains;
+using FilmesWebApi.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ProjetoFilmes.Repositories
+namespace FilmesWebApi.Repositories
 {
     /// <summary>
     /// Repositório que implementa os métodos de filmes
@@ -74,7 +75,18 @@ namespace ProjetoFilmes.Repositories
         /// <returns>Retorna uma lista de filmes</returns>
         public List<Filmes> Listar()
         {
-            return ctx.Filmes.ToList();
+            return ctx.Filmes
+                .Select(f => new Filmes()
+                {
+                    IdFilme = f.IdFilme,
+                    IdGenero = f.IdGenero,
+                    Titulo = f.Titulo,
+                    IdGeneroNavigation = new Generos()
+                    {
+                        IdGenero = f.IdGeneroNavigation.IdGenero,
+                        Nome = f.IdGeneroNavigation.Nome
+                    }
+                }).ToList();
         }
     }
 }

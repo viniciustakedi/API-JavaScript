@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
-namespace ProjetoFilmes
+namespace FilmesWebApi
 {
     public class Startup
     {
@@ -19,6 +19,16 @@ namespace ProjetoFilmes
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.WithOrigins("http://example.com",
+                                            "http://www.contoso.com");
+                    });
+            });
+
             services
                 // Adiciona padrão MVC ao projeto
                 .AddMvc()
@@ -39,6 +49,8 @@ namespace ProjetoFilmes
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+
+            
 
             services
                 // Define as configurações de autenticação
@@ -95,6 +107,11 @@ namespace ProjetoFilmes
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Senai.Filmes.WebApi");
                 c.RoutePrefix = string.Empty;
             });
+
+            app.UseCors(builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader());
 
             // Define o uso de autenticação
             app.UseAuthentication();

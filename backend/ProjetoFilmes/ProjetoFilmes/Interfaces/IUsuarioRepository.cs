@@ -1,6 +1,7 @@
-﻿using ProjetoFilmes.Domains;
+﻿using FilmesWebApi.Domains;
+using FilmesWebApi.ViewModels;
 
-namespace ProjetoFilmes.Interfaces
+namespace FilmesWebApi.Interfaces
 {
     /// <summary>
     /// Interface responsável pelo repositório de usuários
@@ -10,9 +11,8 @@ namespace ProjetoFilmes.Interfaces
         /// <summary>
         /// Valida o usuário
         /// </summary>
-        /// <param name="email">E-mail do usuário</param>
-        /// <param name="senha">Senha do usuário</param>
+        /// <param name="login">Objeto login que contem email é senha</param>
         /// <returns>Retorna um usuário autenticado</returns>
-        Usuarios Login(string email, string senha);
+        Usuarios Login(LoginViewModel login);
     }
 }

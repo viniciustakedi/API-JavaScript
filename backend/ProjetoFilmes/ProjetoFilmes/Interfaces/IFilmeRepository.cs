@@ -1,7 +1,7 @@
-﻿using ProjetoFilmes.Domains;
+﻿using FilmesWebApi.Domains;
 using System.Collections.Generic;
 
-namespace ProjetoFilmes.Interfaces
+namespace FilmesWebApi.Interfaces
 {
     /// <summary>
     /// Interface responsável pelo repositório de filmes
