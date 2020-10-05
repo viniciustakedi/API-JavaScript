@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {}
+    "C:\\Users\\vinic\\Desktop\\API-JavaScript-Fabiane\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {
+    "C:\\Users\\vinic\\Desktop\\API-JavaScript-Fabiane\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\vinic\\Desktop\\API-JavaScript-Fabiane\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
         "projectName": "FilmesWebApi",
-        "projectPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
+        "projectPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript-Fabiane\\backend\\ProjetoFilmes\\ProjetoFilmes\\FilmesWebApi.csproj",
         "packagesPath": "C:\\Users\\vinic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript\\backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
+        "outputPath": "C:\\Users\\vinic\\Desktop\\API-JavaScript-Fabiane\\backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
