@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FilmesWebApi</name>
+    </assembly>
+    <members>
+        <member name="F:FilmesWebApi.Controllers.FilmesController._filmeRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.ListarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do ID
+            </summary>
+            <param name="id">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.Cadastrar(FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme"></param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.Atualizar(System.Int32,FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="id">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+            <returns></returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.FilmesController.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="id">ID do filme que será deletado</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="F:FilmesWebApi.Controllers.GenerosController._generoRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.ListarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do ID
+            </summary>
+            <param name="id">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.Cadastrar(FilmesWebApi.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.Atualizar(System.Int32,FilmesWebApi.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="id">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.GenerosController.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="id">ID do gênero que será deletado</param>
+            <returns>Retorna um status code</returns>
+        </member>
+        <member name="F:FilmesWebApi.Controllers.LoginController._usuarioRepository">
+            <summary>
+            Cria um objeto que recebe os métodos estabelecidos na interface
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.LoginController.#ctor">
+            <summary>
+            Instancia este objeto com as implementações feitas no repositório
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Controllers.LoginController.Login(FilmesWebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login">Objeto com as informações de login</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:FilmesWebApi.Interfaces.IFilmeRepository">
+            <summary>
+            Interface responsável pelo repositório de filmes
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IFilmeRepository.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IFilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do seu ID
+            </summary>
+            <param name="idBuscar">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IFilmeRepository.Cadastrar(FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IFilmeRepository.Atualizar(System.Int32,FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="idAtualizar">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IFilmeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="idDeletar">ID do filme que será deletado</param>
+        </member>
+        <member name="T:FilmesWebApi.Interfaces.IGeneroRepository">
+            <summary>
+            Interface responsável pelo repositório de gêneros
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IGeneroRepository.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IGeneroRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do seu ID
+            </summary>
+            <param name="idBuscar">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IGeneroRepository.Cadastrar(FilmesWebApi.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IGeneroRepository.Atualizar(System.Int32,FilmesWebApi.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="idAtualizar">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IGeneroRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="idDeletar">ID do gênero que será deletado</param>
+        </member>
+        <member name="T:FilmesWebApi.Interfaces.IUsuarioRepository">
+            <summary>
+            Interface responsável pelo repositório de usuários
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Interfaces.IUsuarioRepository.Login(FilmesWebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login">Objeto login que contem email é senha</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:FilmesWebApi.Repositories.FilmeRepository">
+            <summary>
+            Repositório que implementa os métodos de filmes
+            </summary>
+        </member>
+        <member name="F:FilmesWebApi.Repositories.FilmeRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.FilmeRepository.Atualizar(System.Int32,FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Atualiza um filme existente
+            </summary>
+            <param name="idAtualizar">ID do filme que será atualizado</param>
+            <param name="filmeAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.FilmeRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um filme através do seu ID
+            </summary>
+            <param name="idBuscar">ID do filme que será buscado</param>
+            <returns>Retorna um filme buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.FilmeRepository.Cadastrar(FilmesWebApi.Domains.Filmes)">
+            <summary>
+            Cadastra um novo filme
+            </summary>
+            <param name="novoFilme">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.FilmeRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um filme existente
+            </summary>
+            <param name="idDeletar">ID do filme que será deletado</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.FilmeRepository.Listar">
+            <summary>
+            Lista todos os filmes
+            </summary>
+            <returns>Retorna uma lista de filmes</returns>
+        </member>
+        <member name="T:FilmesWebApi.Repositories.GeneroRepository">
+            <summary>
+            Repositório que implementa os métodos de gêneros
+            </summary>
+        </member>
+        <member name="F:FilmesWebApi.Repositories.GeneroRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.GeneroRepository.Atualizar(System.Int32,FilmesWebApi.Domains.Generos)">
+            <summary>
+            Atualiza um gênero existente
+            </summary>
+            <param name="idAtualizar">ID do gênero que será atualizado</param>
+            <param name="generoAtualizado">Objeto com as novas informações</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.GeneroRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um gênero através do seu ID
+            </summary>
+            <param name="idBuscar">ID do gênero que será buscado</param>
+            <returns>Retorna um gênero buscado</returns>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.GeneroRepository.Cadastrar(FilmesWebApi.Domains.Generos)">
+            <summary>
+            Cadastra um novo gênero
+            </summary>
+            <param name="novoGenero">Objeto com as informações que serão cadastradas</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.GeneroRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um gênero existente
+            </summary>
+            <param name="idDeletar">ID do gênero que será deletado</param>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.GeneroRepository.Listar">
+            <summary>
+            Lista todos os gêneros
+            </summary>
+            <returns>Retorna uma lista de gêneros</returns>
+        </member>
+        <member name="T:FilmesWebApi.Repositories.UsuarioRepository">
+            <summary>
+            Repositório que implementa os métodos de usuários
+            </summary>
+        </member>
+        <member name="F:FilmesWebApi.Repositories.UsuarioRepository.ctx">
+            <summary>
+            Instancia um novo contexto para utilizar os métodos do EF Core
+            </summary>
+        </member>
+        <member name="M:FilmesWebApi.Repositories.UsuarioRepository.Login(FilmesWebApi.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="usuario">Objeto usuario que contem o email é a senha</param>
+            <returns>Retorna um usuário autenticado</returns>
+        </member>
+        <member name="T:FilmesWebApi.ViewModels.LoginViewModel">
+            <summary>
+            Classe responsável pelo modelo de login
+            </summary>
+        </member>
+    </members>
+</doc>
